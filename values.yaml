@@ -1,0 +1,7 @@
+kafka:
+  enabled: true
+
+schema-registry:
+  enabled: true
+  kafka:
+    enabled: false

@@ -1,0 +1,9 @@
+dependencies:
+- name: kafka
+  repository: http://storage.googleapis.com/kubernetes-charts-incubator
+  version: 0.14.4
+- name: schema-registry
+  repository: http://storage.googleapis.com/kubernetes-charts-incubator
+  version: 1.1.2
+digest: sha256:e7353c1af6f193998972fcf9d3fad65b6127b5bbfc1c7fe5a76482e1bf5b2afd
+generated: 2019-04-11T10:35:13.446784+01:00
