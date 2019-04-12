@@ -1,7 +1,5 @@
 kafka:
   enabled: true
-
-schema-registry:
-  enabled: true
-  kafka:
-    enabled: false
+  replicas: 3
+  image: "confluentinc/cp-kafka"
+  imageTag: "5.1.2-1"
